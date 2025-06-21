@@ -1,0 +1,20 @@
+:root {
+  color: rgb(224, 232, 253);
+  background-color: rgb(15 23 42);
+  box-sizing: border-box;
+}
+
+/* light and dark */
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
