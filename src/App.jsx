@@ -3,21 +3,25 @@ import React from "react";
 import Header from "./components/header/header";
 import About from "./components/about/about";
 import Developer from "./components/developer/developer";
-import { useRef } from "react";
+import Contact from "./components/contact/contact";
+import Skillset from "./components/skills/skillset";
+import Education from "./components/education/education";
+import Experience from "./components/experience/experience";
+import BubbleTrail from "./components/bubbletrail/bubbletrail";
 function App() {
-  const aboutRef = useRef(null);
-
-  const handleAboutScroll = () => {
-    aboutRef.current?.scrollIntoView({ behavior: 'smooth' });
-  };
   return (
     <>
+      <BubbleTrail />
       <Header />
-      <Developer />
-      <About ref={aboutRef}/>
-     
+      <div className="Dev_prof">
+        <Developer />
+      </div>
+      <About />
+      <Education />
+      <Experience />
+      <Skillset />
+      <Contact />
     </>
   );
 }
-
 export default App;

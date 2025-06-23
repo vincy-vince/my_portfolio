@@ -1,6 +1,8 @@
 .my_img {
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 5px #48abe063;
 }
 
 .Social_icon {
@@ -25,6 +27,31 @@
 .social_icon li a {
 }
 
-.italic{
+.italic {
   font-style: italic;
+}
+
+.vincy_prof h2,
+.vincy_prof h3,
+.vincy_prof p {
+  margin: 0;
+  margin-top: 10px;
+}
+
+@media (min-width: 2000px) {
+  .my_img {
+    min-width: 700px;
+    min-height: 600px;
+  }
+
+  .vincy_prof h2 {
+    font-size: 35px;
+  }
+
+  .vincy_prof h3 {
+    font-size: 25px;
+  }
+  .vincy_prof p {
+    font-size: 20px;
+  }
 }

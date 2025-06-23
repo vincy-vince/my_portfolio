@@ -1,16 +1,25 @@
-/* animation */
-/* 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Dev_prof {
+  display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (min-width: 1024px) {
+  .Dev_prof {
+    display: none;
   }
-} */
+}
+/* animation */
+/* 
+ @keyframes logo-spin {
+  from {
+  transform: rotate(0deg);
+  }
+  to {
+  transform: rotate(360deg);
+  }
+ }
+ 
+ @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+  animation: logo-spin infinite 20s linear;
+  }
+ } */

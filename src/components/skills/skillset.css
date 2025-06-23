@@ -1,0 +1,109 @@
+/* .skills {
+  margin-bottom: 180px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scroll-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.scroll-content {
+  display: inline-flex;
+  animation: scroll-left 20s linear infinite;
+}
+
+.scroll-item {
+  min-width: 150px;
+  height: 100px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: rgb(66, 247, 186);
+  background-color: rgba(0, 245, 163, 0.164);
+  margin: 4px;
+  border-radius: 20px;
+  border: 2px solid rgb(66, 247, 186);
+}
+
+/* Infinite scroll animation (Right to Left) */
+/* @keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-container:hover .scroll-content {
+  animation-play-state: paused;
+}  */
+
+.skill-container h1 {
+  margin-bottom: 0;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.skills {
+  margin-bottom: 180px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scroll-container {
+  display: flex;
+  overflow: hidden;
+  padding: 60px 0;
+  white-space: nowrap;
+  margin-bottom: 100px;
+}
+
+.scroll-content {
+  display: flex;
+  animation: 10s slide infinite linear;
+}
+
+.scroll-item {
+  background-image: linear-gradient(
+    to right,
+    rgba(23, 33, 56, 0.541),
+    rgb(15 23 42)
+  );
+  height: 50px;
+  margin: 0 40px;
+  font-size: 30px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  height: max-content;
+}
+
+.scroll-container:hover .scroll-content {
+  animation-play-state: paused;
+}
+
+@media (min-width: 1024px){
+  .scroll-container{
+    margin-bottom: 50px;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 425px){
+  .scroll-item{
+    margin: 0 10px;
+  }
+}

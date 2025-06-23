@@ -1,0 +1,15 @@
+.experience_content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px;
+}
+
+@media (min-width: 1024px) {
+  .experience_content {
+    width: 50%;
+    padding: 20px;
+  }
+}

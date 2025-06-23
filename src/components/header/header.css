@@ -7,7 +7,15 @@
   padding: 10px;
   justify-content: space-between;
   background-color: rgb(15 23 42);
+  z-index: 10;
 }
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+} 
+
 .menu_container {
   display: flex;
   list-style: none;
@@ -15,6 +23,7 @@
   align-items: center;
   width: 50%;
   gap: 8px;
+  padding: 0;
 }
 
 .menu_container li a {
@@ -37,4 +46,28 @@
 .Resume a:hover {
   box-shadow: 0 0 10px 5px #48abe073;
   transition: all 0.35s;
+}
+
+@media (min-width: 2000px) {
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .menu_container{
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .menu_container {
+    width: 30%;
+    gap: 3px;
+  }
+}
+
+@media (max-width: 425px) {
+  .menu_container {
+    width: max-content;
+  }
 }

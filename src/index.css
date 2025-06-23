@@ -1,7 +1,11 @@
 :root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   color: rgb(224, 232, 253);
   background-color: rgb(15 23 42);
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* light and dark */

@@ -1,7 +1,7 @@
 import React from "react";
 import "../about/about.css";
-import Projects from "../projects/projects";
-import Developer from "../developer/developer";
+import Projects from "../projects/projects.jsx";
+import Developer from "../developer/developer.jsx";
 const About = () => {
   return (
     <div id="about" className="about_container">
@@ -25,12 +25,6 @@ const About = () => {
               that not only look great but also deliver a great user experience.
               I also enjoy solving real-world problems, especially when it comes
               to bug fixing and performance improvements.
-            </div>
-
-            <div>
-              I completed a one-year internship at Znyck Technologies Private
-              Limited, where I gained practical experience in frontend
-              development and real-time project work.
             </div>
           </div>
           <div>
