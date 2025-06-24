@@ -18,7 +18,7 @@ export const projects = [
     weblink: "",
   },
   {
-    img: "public/bible_app.jpeg",
+    img: "public/bible-app.png",
     title: "📖 Bible Web App",
     "Tech Stack": ["HTML", "CSS", "JavaScript"],
     explanation:

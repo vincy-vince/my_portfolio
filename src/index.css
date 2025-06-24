@@ -6,6 +6,7 @@
   background-color: rgb(15 23 42);
   box-sizing: border-box;
   scroll-behavior: smooth;
+  cursor:none;
 }
 
 /* light and dark */

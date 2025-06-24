@@ -3,19 +3,21 @@ import "../bubbletrail/bubbletrail.css"
 const BubbleTrail = () => {
   useEffect(() => {
     const handleMouseMove = (e) => {
-      const bubble = document.createElement('div');
-      bubble.className = 'bubble';
-      bubble.style.left = `${e.clientX}px`;
-      bubble.style.top = `${e.clientY}px`;
-      document.body.appendChild(bubble);
+      const star = document.createElement("div");
+      star.className = "star";
+      star.style.left = `${e.clientX}px`;
+      star.style.top = `${e.clientY}px`;
+      document.body.appendChild(star);
 
       setTimeout(() => {
-        bubble.remove();
-      }, 1000); // remove after 1 second
+        star.remove();
+      }, 200);
     };
 
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
+    document.addEventListener("mousemove", handleMouseMove);
+    return () => {
+      document.removeEventListener("mousemove", handleMouseMove);
+    };
   }, []);
 
   return null;
