@@ -28,7 +28,7 @@ export const projects = [
       "https://theholybibleapp-60035362824.development.catalystserverless.in/app/home.html",
   },
   {
-    img: "public/tic-tac-toe.jpeg",
+    img: "public/Tic-tac-toe.png",
     title: "❌⭕ Tic-Tac-Toe Game",
     "Tech Stack": ["HTML", "CSS", "JavaScript"],
     explanation:
@@ -41,7 +41,7 @@ export const projects = [
     title: "🌦️ Weather App",
     "Tech Stack": ["HTML", "CSS", "JavaScript"],
     explanation:
-      "Built a real-time weather application with live API data. Designed the interface to adapt visually based on the temperature of the searched location, enhancing user engagement.",
+      "Built a real-time weather application with live API data. Designed the interface to adapt visually based on the temperature of the current Live location.",
     view: "View Project",
     weblink: "",
   },

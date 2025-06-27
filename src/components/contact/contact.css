@@ -27,7 +27,6 @@
   /* clip-path: polygon(20% 0, 80% 0, 100% 100%, 0% 100%); */
 }
 
-
 .contact-social_icon {
   width: 30px;
   height: 30px;
@@ -39,8 +38,6 @@
   color: whitesmoke;
   font-size: 12px;
 }
-
-
 
 @media (min-width: 2000px) {
   .mail {
