@@ -11,10 +11,10 @@
 
 /* light and dark */
 
-/* @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #ffecc3;
   }
   a:hover {
     color: #747bff;
@@ -22,4 +22,13 @@
   button {
     background-color: #f9f9f9;
   }
-} */
+  .project_cards .cards{
+    background-color: rgb(15, 23, 42);
+    color: #e7e8fd;
+  }
+
+  .project_cards .cards:hover{
+    background-color: rgba(15, 23, 42, 0.658);
+    color: #e7e8fd;
+  }
+}

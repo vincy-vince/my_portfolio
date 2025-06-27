@@ -18,7 +18,7 @@ This site is a reflection of who I am as a *Front-End Developer* — showcasing 
 ## 🚀 Live Site
 
 👉 [Click here to view the live portfolio]()  
-(Replace with actual link once deployed)
+
 
 ## 🛠️ Tech Stack
 
