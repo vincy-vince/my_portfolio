@@ -1,6 +1,6 @@
 export const projects = [
   {
-    img: "public/theSocialProjects.jpeg",
+    img: "theSocialProjects.jpeg",
     title: "🌐 The Social Projects Website",
     "Tech Stack": ["HTML", "CSS", "JavaScript", "Next.js"],
     explanation:
@@ -9,7 +9,7 @@ export const projects = [
     weblink: "https://www.thesocialprojects.org/",
   },
   {
-    img: "public/jcm.jpeg",
+    img: "jcm.jpeg",
     title: "✝️ Judea Christ Ministry (JCM) Website",
     "Tech Stack": ["HTML", "Tailwind CSS", "JavaScript", "React.js"],
     explanation:
@@ -18,7 +18,7 @@ export const projects = [
     weblink: "",
   },
   {
-    img: "public/bible-app.png",
+    img: "bible-app.png",
     title: "📖 Bible Web App",
     "Tech Stack": ["HTML", "CSS", "JavaScript"],
     explanation:
@@ -28,7 +28,7 @@ export const projects = [
       "https://theholybibleapp-60035362824.development.catalystserverless.in/app/home.html",
   },
   {
-    img: "public/Tic-tac-toe.png",
+    img: "Tic-tac-toe.png",
     title: "❌⭕ Tic-Tac-Toe Game",
     "Tech Stack": ["HTML", "CSS", "JavaScript"],
     explanation:
@@ -37,7 +37,7 @@ export const projects = [
     weblink: "",
   },
   {
-    img: "public/weather_app.jpeg",
+    img: "weather_app.jpeg",
     title: "🌦️ Weather App",
     "Tech Stack": ["HTML", "CSS", "JavaScript"],
     explanation:

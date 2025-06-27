@@ -1,0 +1,13 @@
+{
+	"command": "node ./server/index.js",
+	"buildPath": "/home/system-6/Desktop/my_portfolio/build",
+	"stack": "node16",
+	"env_variables": {},
+	"memory": 128,
+	"scripts": {
+		"preserve":"cd client && npm run build && cd .. && cp -r server build",
+		"postserve": "rm -r build/*",
+        "predeploy":"cd client && npm run build && cd .. && cp -r server build",
+		"postdeploy": "rm -r build/*"
+	}
+}

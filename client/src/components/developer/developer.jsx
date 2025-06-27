@@ -26,7 +26,7 @@ const Developer = () => {
       >
         <img
           className="my_img"
-          src="public/vincy2.jpeg"
+          src="vincy2.jpeg"
           alt="vincy-vince_developer"
         />
         <h2>Vincy Vince</h2>
