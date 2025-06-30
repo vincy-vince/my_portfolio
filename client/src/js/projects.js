@@ -15,7 +15,8 @@ export const projects = [
     explanation:
       "Created a dynamic and responsive website for a non-profit organization. Highlighted various ministries and initiatives with intuitive navigation and interactive UI for a smooth user experience.",
     view: "View Project",
-    weblink: "",
+    weblink:
+      "https://judea-christ-ministries-50025573061.development.catalystappsail.in",
   },
   {
     img: "bible-app.png",
@@ -34,7 +35,8 @@ export const projects = [
     explanation:
       "A simple and interactive browser-based Tic-Tac-Toe game, designed to reinforce core front-end development concepts and logic building.",
     view: "View Project",
-    weblink: "",
+    weblink:
+      " https://tic-tac-toe-60035362824.development.catalystserverless.in/app/ttt.html",
   },
   {
     img: "weather_app.jpeg",
@@ -43,6 +45,7 @@ export const projects = [
     explanation:
       "Built a real-time weather application with live API data. Designed the interface to adapt visually based on the temperature of the current Live location.",
     view: "View Project",
-    weblink: "",
+    weblink:
+      "https://weather-app-60035362824.development.catalystserverless.in/app/index.html",
   },
 ];
