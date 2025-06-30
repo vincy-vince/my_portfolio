@@ -14,7 +14,7 @@ export const projects = [
     "Tech Stack": ["HTML", "Tailwind CSS", "JavaScript", "React.js"],
     explanation:
       "Created a dynamic and responsive website for a non-profit organization. Highlighted various ministries and initiatives with intuitive navigation and interactive UI for a smooth user experience.",
-    view: "View Project",
+    view: "https://github.com/vincy-vince/JCM-non_profitable_trustee",
     weblink:
       "https://judea-christ-ministries-50025573061.development.catalystappsail.in",
   },
@@ -24,7 +24,7 @@ export const projects = [
     "Tech Stack": ["HTML", "CSS", "JavaScript"],
     explanation:
       "Developed a lightweight Bible reading app allowing users to search books, chapters, and verses in real-time. Ensures quick access and a smooth reading experience without any lag.",
-    view: "View Project",
+    view: "https://github.com/vincy-vince/Bible-app",
     weblink:
       "https://theholybibleapp-60035362824.development.catalystserverless.in/app/home.html",
   },
@@ -34,7 +34,7 @@ export const projects = [
     "Tech Stack": ["HTML", "CSS", "JavaScript"],
     explanation:
       "A simple and interactive browser-based Tic-Tac-Toe game, designed to reinforce core front-end development concepts and logic building.",
-    view: "View Project",
+    view: "https://github.com/vincy-vince/tic-tac-toe",
     weblink:
       " https://tic-tac-toe-60035362824.development.catalystserverless.in/app/ttt.html",
   },
@@ -44,7 +44,7 @@ export const projects = [
     "Tech Stack": ["HTML", "CSS", "JavaScript"],
     explanation:
       "Built a real-time weather application with live API data. Designed the interface to adapt visually based on the temperature of the current Live location.",
-    view: "View Project",
+    view: "https://github.com/vincy-vince/Weather-App",
     weblink:
       "https://weather-app-60035362824.development.catalystserverless.in/app/index.html",
   },

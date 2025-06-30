@@ -1,9 +1,9 @@
 import "./App.css";
 import React from "react";
 import Header from "./components/header/header";
+import Hero from "./components/hero/hero";
 import About from "./components/about/about";
 import Developer from "./components/developer/developer";
-import Contact from "./components/contact/contact";
 import Skillset from "./components/skills/skillset";
 import Education from "./components/education/education";
 import Experience from "./components/experience/experience";
@@ -13,6 +13,7 @@ function App() {
     <>
       <BubbleTrail />
       <Header />
+      <Hero />
       <div className="Dev_prof">
         <Developer />
       </div>
@@ -20,7 +21,6 @@ function App() {
       <Education />
       <Experience />
       <Skillset />
-      <Contact />
     </>
   );
 }

@@ -44,6 +44,10 @@
   animation-play-state: paused;
 }  */
 
+.skill-container {
+  margin-left: 20px;
+}
+
 .skill-container h1 {
   margin-bottom: 0;
 }
@@ -95,15 +99,15 @@
   animation-play-state: paused;
 }
 
-@media (min-width: 1024px){
-  .scroll-container{
+@media (min-width: 1024px) {
+  .scroll-container {
     margin-bottom: 50px;
     padding-top: 40px;
   }
 }
 
-@media (max-width: 425px){
-  .scroll-item{
+@media (max-width: 425px) {
+  .scroll-item {
     margin: 0 10px;
   }
 }

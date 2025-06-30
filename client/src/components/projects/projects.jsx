@@ -9,28 +9,33 @@ const Projects = () => {
         {projects.map((data, i) => (
           <div key={i}>
             <div className="cards" key={i}>
-              <div className="proj_card_img">
-                <img src={data.img} alt="" />
-              </div>
-              <h3>{data.title}</h3>
-              <p>{data.explanation}</p>
-              <h4>
-                Tech Stack:{" "}
-                {data["Tech Stack"].map((ele, i) => (
-                  <ul key={i} className="tech_stack">
-                    <li>{ele}</li>
-                  </ul>
-                ))}
-              </h4>
-              <a href="" target="_blank">
-                {data.view}
-              </a>
               <a
-                style={{ marginLeft: "6px" }}
+                style={{ background: "none", boxShadow: "none" }}
                 href={data.weblink}
-                target="_blank"
               >
-                Web Link
+                <div className="proj_card_img">
+                  <img src={data.img} alt="" />
+                </div>
+                <h3>{data.title}</h3>
+                <p>{data.explanation}</p>
+                <h4>
+                  Tech Stack:{" "}
+                  {data["Tech Stack"].map((ele, i) => (
+                    <ul key={i} className="tech_stack">
+                      <li>{ele}</li>
+                    </ul>
+                  ))}
+                </h4>
+                <a href={data.view} target="_blank">
+                  View Project
+                </a>
+                <a
+                  style={{ marginLeft: "6px" }}
+                  href={data.weblink}
+                  target="_blank"
+                >
+                  Web Link
+                </a>
               </a>
             </div>
           </div>

@@ -4,7 +4,7 @@ const Skillset = () => {
   const skillset = [
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-    "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tailwindcss.svg",
+    "https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
@@ -16,10 +16,9 @@ const Skillset = () => {
         <div className="scroll-content">
           {skillset.map((skill, index) => (
             <img
+              style={{ width: "40px", height: "40px" }}
               src={skill}
               alt="HTML5"
-              width="40"
-              height="40"
               className="scroll-item"
               key={index}
             />
@@ -28,10 +27,9 @@ const Skillset = () => {
         <div className="scroll-content">
           {skillset.map((skill, index) => (
             <img
+              style={{ width: "40px", height: "40px" }}
               src={skill}
               alt="HTML5"
-              width="40"
-              height="40"
               className="scroll-item"
               key={index}
             />
@@ -40,10 +38,9 @@ const Skillset = () => {
         <div className="scroll-content">
           {skillset.map((skill, index) => (
             <img
+              style={{ width: "40px", height: "40px" }}
               src={skill}
               alt="HTML5"
-              width="40"
-              height="40"
               className="scroll-item"
               key={index}
             />

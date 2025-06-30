@@ -22,13 +22,9 @@ const Developer = () => {
       <div
         // ref={boxRef}
         className="vincy_prof"
-        style={{ marginTop: "150px", textAlign: "center" }}
+        style={{ textAlign: "center" }}
       >
-        <img
-          className="my_img"
-          src="vincy2.jpeg"
-          alt="vincy-vince_developer"
-        />
+        <img className="my_img" src="vincy2.jpeg" alt="vincy-vince_developer" />
         <h2>Vincy Vince</h2>
         <h3>Front End Developer</h3>
         <p className="italic">I build accesible and responsive websites</p>
