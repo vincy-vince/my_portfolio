@@ -10,6 +10,7 @@ const Projects = () => {
           <div key={i}>
             <div className="cards" key={i}>
               <a
+                target="_blank"
                 style={{ background: "none", boxShadow: "none" }}
                 href={data.weblink}
               >
