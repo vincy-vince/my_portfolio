@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import "../bubbletrail/bubbletrail.css"
+import React, { useEffect } from "react";
+import "../bubbletrail/bubbletrail.css";
 const BubbleTrail = () => {
   useEffect(() => {
     const handleMouseMove = (e) => {

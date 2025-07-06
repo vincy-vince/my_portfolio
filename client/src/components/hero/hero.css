@@ -1,3 +1,31 @@
 .hero-container {
-  margin-left: 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: max-content;
+  margin: 70px 40px;
+  margin-top: 120px;
+  justify-content: space-around;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px 5px #00ffff;
+}
+
+.hero-container h1 {
+  font-size: 50px;
+}
+
+.imageSec img {
+  max-width: 270px;
+  max-height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 5px #f5cd82b4;
+}
+
+@media (max-width: 1023px) {
+  .hero-container {
+    display: none;
+  }
 }

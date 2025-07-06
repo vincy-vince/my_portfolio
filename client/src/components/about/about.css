@@ -41,17 +41,15 @@
 }
 
 @media (min-width: 1024px) {
-  .developer {
-    display: block;
-    margin: 35px;
-    margin-top: 0;
-    position: fixed;
-    right: 70px;
+  .about {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
-
   .about-container {
-    width: 50%;
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .about-content {
@@ -60,14 +58,6 @@
 }
 
 @media (min-width: 2000px) {
-  .developer {
-    display: block;
-    margin: 35px;
-    position: fixed;
-    right: 70px;
-    margin-top: 350px;
-  }
-
   .about-container h1 {
     font-size: 40px;
   }

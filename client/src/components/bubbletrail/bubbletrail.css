@@ -12,8 +12,8 @@
 
 .star {
   position: fixed;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   background: white;
   border-radius: 50%;
   box-shadow: 0 0 10px #00ffff, 0 0 20px rgb(15 23 42), 0 0 30px rgb(15 23 42);

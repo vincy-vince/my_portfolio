@@ -38,6 +38,10 @@
   margin-top: 10px;
 }
 
+.Dev_prof {
+  margin-top: 130px;
+}
+
 @media (min-width: 2000px) {
   .my_img {
     min-width: 700px;
