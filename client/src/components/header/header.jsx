@@ -66,8 +66,8 @@ const Header = () => {
         <li className="Resume">
           <a
             title="Download Resume"
-            href="resume.pdf"
-            download="resume.pdf"
+            href="vincy-vince-developer-resume.pdf"
+            download="vincy-vince-developer-resume.pdf"
           >
             Résumé
           </a>
